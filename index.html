@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculer le prix du carburant</h1>
+    <form action="" class="formulaire">
+        <div class="conso">
+            <label for="consommation">Entrer votre consommation</label>
+            <input type="number" min="0" max="100" value="0" name="consommation" id="consommation" required>
+        </div>
+        <div class="kilometres">
+            <label for="distance">Entrer votre distance</label>
+            <input type="number" min="0" max="100" value="0" name="name" id="distance" required>
+        </div>
+        <div class="Carburant">
+            <label for="priceCarburant">Le prix du carburant</label>
+            <input type="number" min="0" max="100" value="0" name="name" id="price" required>
+        </div>
+        <div class="btn-button">
+             <button type="submit" id="submit">valider</button>
+        </div>
+       
+    </form>
+    <div class="resultat">
+        <p id="resulat"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
