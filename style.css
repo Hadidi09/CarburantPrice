@@ -37,10 +37,18 @@ input {
   outline: none;
 }
 button {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   border: 2px solid white;
   padding: 5%;
   border-radius: 14px;
+  background: rgb(12, 56, 236);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 56, 236, 0.8712355610561056) 0%,
+    rgba(223, 46, 251, 1) 85%,
+    rgba(223, 46, 251, 1) 100%
+  );
+  color: whitesmoke;
 }
 .resultat {
   font-size: 1.25rem;
@@ -49,4 +57,18 @@ button {
   margin-top: 1%;
   border-radius: 14px;
   color: whitesmoke;
+}
+#totale {
+  background: rgb(12, 56, 236);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 56, 236, 0.8712355610561056) 0%,
+    rgba(223, 46, 251, 1) 85%,
+    rgba(223, 46, 251, 1) 100%
+  );
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 14px;
+  color: whitesmoke;
+  font-size: 1.45rem;
 }
